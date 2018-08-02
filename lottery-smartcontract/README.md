@@ -1,1 +1,0 @@
-# Lottery Smart contract
