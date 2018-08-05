@@ -1,7 +1,7 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const {interface, bytecode} = require('./compile');
-const mnemonic = 'measure mystery name whale pelican judge armor process initial flock neutral ripple';
+const mnemonic = '';
 const infura = 'https://rinkeby.infura.io/your-infura-API-key'
 const INITIAL_STRING = "Initial Deployment to Rinkeby Test Network";
 const provider = new HDWalletProvider(mnemonic, infura);
